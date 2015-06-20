@@ -3,3 +3,7 @@ A. When I initialize a repository, git creates the metadata files needed to keep
 
 Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
 A. Staging area is different from the working area in that the staging area only contains files that are to be a part of the next commit. Having a staging area helps us avoid having to commit all changes made to the repository at once. The commits can be made in a sequence of logical changes.
+
+Q. How can you use the staging area to make sure you have one commit per logical change?
+A. Use git diff --staged to verify that the output you see is the logical change you wish to commit.
+

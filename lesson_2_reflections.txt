@@ -1,0 +1,5 @@
+Q. What happens when you initialize a repository? Why do you need to do it?
+A. When I initialize a repository, git creates the metadata files needed to keep track of my repository. I need to do it to enable git to keep track of my changes to the repository.
+
+Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
+A. Staging area is different from the working area in that the staging area only contains files that are to be a part of the next commit. Having a staging area helps us avoid having to commit all changes made to the repository at once. The commits can be made in a sequence of logical changes.

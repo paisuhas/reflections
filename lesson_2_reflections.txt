@@ -9,3 +9,7 @@ A. Use git diff --staged to verify that the output you see is the logical change
 
 Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 A. Branches are helpful when we want to try out an experiment on the codebase but do not want to commit it to the main code. So we use branches to create a copy of the code and try out our experiments in the branch. Branches can also be used when a single project has two different end goals. We can build up the fundamental code on the master branch and then branch to create 2 different offshoots.
+
+Q. How do the diagrams help you visualize the branch structure?
+A. The diagrams help me visualize the origins of branches and the reachability of commits.
+

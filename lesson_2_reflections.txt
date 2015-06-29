@@ -13,3 +13,5 @@ A. Branches are helpful when we want to try out an experiment on the codebase bu
 Q. How do the diagrams help you visualize the branch structure?
 A. The diagrams help me visualize the origins of branches and the reachability of commits.
 
+Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A. Merging two branches together combines the changes made in both the branches and puts it at the head of one of the branches. The branches are represented so because the parents for commits are different in each branch. Once they are merged, we can continue on the merged branch.

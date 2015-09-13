@@ -1,6 +1,6 @@
 Q. When would you want to use a remote repository rather than keeping all your work
 local?
-A. I'd want to create a remote repository when I want to share my repository for others. Having a remote repository has several advantages. You can show off the project you've been working on, seek feedback on your work and collaborate with others with multiple contributors to the repository.
+A. I'd want to create a remote repository when I want to share my local repository with others. Having a remote repository has several advantages. You can show off the project you've been working on, seek feedback on your work and collaborate with others with multiple contributors to the repository.
 
 Q.Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?

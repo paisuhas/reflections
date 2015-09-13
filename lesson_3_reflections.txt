@@ -16,10 +16,9 @@ Q. What is the benefit of having a copy of the last known state of the remote
 stored locally?
 A. Having a copy of the last known state of the remote stored locally helps track the divergence of the repository from its remote. Not having such a copy would create confusion about commit history and how to merge changes on a pull when the state of the local repository and the remote have diverged.
 
-How would you collaborate without using Git or GitHub?  What would be easier,
+Q. How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
-
-    Fill in your answer here
+A. I would probably use Google Drive without Git or GitHub for collaboration. Collaborating on text documents would be easier and collaborating on writing code would be harder. Things would be simpler wrt commit histories but it would be hard to track down without detailed commit history.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?

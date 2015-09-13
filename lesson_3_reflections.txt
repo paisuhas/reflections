@@ -12,10 +12,9 @@ A. Clone creates a copy of a repository. Clone can be used to create a local cop
 Fork clones a repository on github. You can fork a repository on github when you want to make your own changes to the repository but do not have permissions.
 Branch creates a "fork" in your commit sequence to try out some experiments. Branches can be merged back to the master branch if the experiments work out well. All the commits to the repository are preserved after the merge.
 
-What is the benefit of having a copy of the last known state of the remote
+Q. What is the benefit of having a copy of the last known state of the remote
 stored locally?
-
-    Fill in your answer here
+A. Having a copy of the last known state of the remote stored locally helps track the divergence of the repository from its remote. Not having such a copy would create confusion about commit history and how to merge changes on a pull when the state of the local repository and the remote have diverged.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?

@@ -20,7 +20,6 @@ Q. How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 A. I would probably use Google Drive without Git or GitHub for collaboration. Collaborating on text documents would be easier and collaborating on writing code would be harder. Things would be simpler wrt commit histories but it would be hard to track down without detailed commit history.
 
-When would you want to make changes in a separate branch rather than directly in
+Q. When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
-
-    Fill in your answer here
+A. Working on a separate branch makes more sense when you want to concentrate on implementation of a certain feature. This lets you merge the changes once the feature is complete without having to worry about the work being committed parallelly to the master branch. Working on a separate branch also avoids confusion caused by everybody committing to the master branch in case of large projects with many collaborators. Working on the master branch makes it simpler to manage commits when there are very few collaborators.
